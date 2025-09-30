@@ -26,16 +26,19 @@ Questa sezione contiene tutto il necessario per avviare l'app "Concert Tracker" 
 
 1.  **Installa le dipendenze:**
     Apri il terminale nella directory del progetto ed esegui:
-    ```bash
+    ```
+    bash
     npm install
     ```
 2.  **Configura la chiave API:**
     Imposta la tua `GEMINI_API_KEY` nel file `.env.local` con la tua chiave API di Gemini.
-    ```    GEMINI_API_KEY=la_tua_chiave_api_qui
+    ```
+    GEMINI_API_KEY=la_tua_chiave_api_qui
     ```
 3.  **Avvia l'app:**
     Sempre dal terminale, esegui:
-    ```bash
+    ```
+    bash
     npm run dev
     ```
 
@@ -67,7 +70,8 @@ Per caricare la tua lista di concerti o iniziare da zero, segui questi passaggi.
 #### 2. Iniziare con una lista vuota
 
 1.  **Svuota il file dati:** Apri `data/initialConcerts.ts` e modifica l'array in modo che sia vuoto:
-    ```typescript
+    ```
+    typescript
     import type { Concert } from '../types';
 
     type InitialConcert = Omit<Concert, 'id'>;
