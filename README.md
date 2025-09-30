@@ -18,6 +18,13 @@ Preparati a rivivere i tuoi momenti preferiti e a non perdere mai più un dettag
 
 ---
 
+### Testa l'applicazione!
+
+è possibile testare l'applicazione direttamente qui:
+https://ai.studio/apps/drive/1jRPGz6hjs1lmZTVKDCAyUYL8nucXRkMi
+
+---
+
 ## 🚀 Esegui l'app in locale
 
 Questa sezione contiene tutto il necessario per avviare l'app "Concert Tracker" sul tuo computer.
@@ -81,8 +88,3 @@ Per caricare la tua lista di concerti o iniziare da zero, segui questi passaggi.
 2.  **Pulisci il `localStorage` e ricarica:** Segui i passaggi 2 e 3 della sezione precedente per eliminare i dati salvati e ricaricare la pagina. L'app si avvierà con una tabella vuota, pronta per essere riempita!
 
 ---
-
-### Visualizza la tua app in AI Studio (se applicabile)
-
-Se l'app è collegata ad AI Studio, puoi visualizzarla direttamente qui:
-https://ai.studio/apps/drive/1jRPGz6hjs1lmZTVKDCAyUYL8nucXRkMi
