@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concert Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'light-bg': '#f5f5f7',
+              'light-card': '#ffffff',
+              'light-border': '#d1d1d6',
+              'light-text': '#1d1d1f',
+              'light-subtext': '#6e6e73',
+              'dark-bg': '#1c1c1e',
+              'dark-card': '#2c2c2e',
+              'dark-border': '#3a3a3c',
+              'dark-text': '#f5f5f7',
+              'dark-subtext': '#86868b',
+              'accent': '#007aff',
+              'accent-hover': '#005ecb',
+            },
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body class="antialiased font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

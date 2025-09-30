@@ -1,0 +1,5 @@
+{
+  "name": "Concert Tracker",
+  "description": "A web application to track and analyze your concert history. Visualize statistics, filter by year, city, or artist, and manage your concert entries with a sleek, modern interface.",
+  "requestFramePermissions": []
+}
